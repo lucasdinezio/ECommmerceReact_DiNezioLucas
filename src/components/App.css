@@ -1,0 +1,87 @@
+.cardProducto{
+    width:18rem;
+    margin: 4px;
+    background-color: hsl(0, 0, 97%);
+
+}
+
+.cardBody{
+    background-color: white;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.cardBodyDark{
+    background-color: hsl(0, 0, 33%);
+}
+
+img{
+    margin-top: 3px;
+}
+
+.cardProductos{
+    margin: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemDetail{
+     max-width: 900px;
+     margin-top: 20px;
+}
+
+.itemDetailBodyDark{
+    background-color: hsl(0, 0, 33%);
+    color: white;
+}
+
+.darkMode{
+    background-color: black;
+    color: darkgray;
+}
+
+.cartContainer{
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.divButtons{
+    margin: 2rem;
+    margin-bottom: 2rem; 
+    margin-left: 10px;
+    
+}
+
+.cardCart{
+    max-width: 540px;
+}
+
+.cantCarrito{
+    margin: 7px;
+}
+
+.botonCarrito{
+    margin: 10px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    align-items: center;
+}
+
+.nav-link{
+    margin-top: 5px;
+}
+
+.carritoVacio{
+    margin: 3rem;
+    font-weight: 900;
+    font-size: 50px;
+}
+
